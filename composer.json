@@ -1,0 +1,17 @@
+{
+    "name": "colaborador/rabbit-php-tutorial",
+    "autoload": {
+        "psr-4": {
+            "Colaborador\\RabbitPhpTutorial\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pablicio",
+            "email": "pabliciotjg@gmail.com"
+        }
+    ],
+    "require": {
+      "php-amqplib/php-amqplib": "^3.2"
+    }
+}
